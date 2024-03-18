@@ -46,13 +46,13 @@ Tengan en cuenta que este proyecto va a conformar su primer proyecto bastante co
 
 ### /api/users -> usersRouter
 
-1 - "/register" -> create (register) - createUser - POST
-2 - "/" -> read - readUsers - NECESITA LOGGEARSE (es opcional) - NO MOSTRAR DATA SENSIBLE - GET
-3 - "/:email" -> read - readUserByEmail - NECESITA LOGGEARSE (es opcional) - GET
-4 - "/:username" -> update - updateUser - NECESITA LOGGEARSE - PATCH
-5 - "/:username" -> delete - deleteUser - NECESITA LOGGEARSE - DELETE
-6 - "/login" -> create (login) - login - POST
-7 - "/logout" -> delete - (deloggear) - logout - NECESITA LOGGEARSE - DELETE
+- 1 - "/register" -> create (register) - createUser - POST
+- 2 - "/" -> read - readUsers - NECESITA LOGGEARSE (es opcional) - NO MOSTRAR DATA SENSIBLE - GET
+- 3 - "/:email" -> read - readUserByEmail - NECESITA LOGGEARSE (es opcional) - GET
+- 4 - "/:username" -> update - updateUser - NECESITA LOGGEARSE - PATCH
+- 5 - "/:username" -> delete - deleteUser - NECESITA LOGGEARSE - DELETE
+- 6 - "/login" -> create (login) - login - POST
+- 7 - "/logout" -> delete - (deloggear) - logout - NECESITA LOGGEARSE - DELETE
 
 ## RECURSO PROPIO DE CADA UNA - CRUD
 
@@ -72,8 +72,8 @@ Tengan en cuenta que este proyecto va a conformar su primer proyecto bastante co
 
 ¡TODOS LOS CASOS EN LA RAIZ PERMITIRA QUERY PARAMS!
 
-1 - "/" -> create - createFigure - POST - NECESITA LOGGEARSE
-2 - "/" -> read - getAllFigures - GET - ?province=Oshima -> "http:localhost:1234/api/figures?province=oshima"
-3 - "/:id" -> read - getFigureById - GET
-4 - "/:id" -> update - updateFigure - PATCH - NECESITA LOGGEARSE
-5 - "/:id" -> delete - deleteFigure - DELETE - NECESITA LOGGEARSE
+- 1 - "/" -> create - createFigure - POST - NECESITA LOGGEARSE
+- 2 - "/" -> read - getAllFigures - GET - ?province=Oshima -> "http:localhost:1234/api/figures?province=oshima"
+- 3 - "/:id" -> read - getFigureById - GET
+- 4 - "/:id" -> update - updateFigure - PATCH - NECESITA LOGGEARSE
+- 5 - "/:id" -> delete - deleteFigure - DELETE - NECESITA LOGGEARSE
